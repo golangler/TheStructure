@@ -43,9 +43,14 @@ Contribution
 Contributions to TheStructure are welcome. Whether you are fixing bugs, proposing new features, or improving documentation, your help is appreciated.
 
 DONATE:
+
 BTC 1CbE3SsUcvJWZ2YNaDwUj9AQtT8k4AGmLe
+
 BUSD 0xe59b45288C1dc5a67AF0a8a8B69530fc47d9Dd7F
+
 USDT 0xe59b45288C1dc5a67AF0a8a8B69530fc47d9Dd7F
+
 BNB 0xe59b45288C1dc5a67AF0a8a8B69530fc47d9Dd7F
+
 ETH 0xe59b45288C1dc5a67AF0a8a8B69530fc47d9Dd7F
 
