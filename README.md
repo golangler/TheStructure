@@ -1,6 +1,24 @@
 # TheStructure
 TheStructure
 
+[UPDATE 1]
+Thai:
+The Structure นี้เหมาะสำหรับคนที่ต้องการใช้งาน Goroutine ในการทำ concurrency โดยใช้โครงสร้างที่จัดเตรียมไว้แล้ว สามารถทำระบบอัตโนมัติได้ด้วยการกำหนดฟังก์ชันงาน สถานะงาน และการควบคุมงานที่ซับซ้อน
+
+English:
+This Structure is suitable for those who want to utilize Goroutines for concurrency through a pre-arranged structure. It enables the creation of an automated system by defining job functions, job statuses, and intricate job control mechanisms.
+
+Regarding the code:
+
+Job Management: It involves creating, monitoring, and controlling jobs. Each job has a unique name, arguments, dependencies, and triggers that determine its execution.
+Concurrency Control: Using Goroutines, the program concurrently executes multiple jobs. It employs channels and synchronization techniques to manage concurrent processes effectively.
+Graceful Termination: The program listens for system signals to terminate gracefully, ensuring that all processes complete correctly before exiting.
+Dynamic Job Control: Includes features like pausing, resuming, and conditionally executing jobs based on specific criteria or states.
+Error Handling and Logging: Provides mechanisms to handle errors during job execution and log job statuses for debugging and monitoring purposes.
+Deadlock Scenarios: The documentation section discusses potential deadlock or error situations in the jobDetails structure and how to create scenarios to test the robustness of the concurrency model.
+This code is an advanced example of concurrent programming in Go, showcasing the use of Goroutines, channels, and synchronization techniques to manage complex job workflows. It's designed for scenarios where multiple tasks need to be executed in parallel, with dependencies and conditional triggers.
+[/UPDATE 1]
+
 ภาพรวม
 TheStructure เป็นโปรแกรมที่ออกแบบมาเพื่อจัดการและประสานงานหลายๆ งานที่มีความซับซ้อนและขึ้นอยู่ซึ่งกันและกัน. โปรแกรมนี้ใช้เทคนิคการจัดการงาน (Jobs) ที่ทำงานอย่างอิสระ แต่ยังคงมีการสื่อสารและความขึ้นต่อกันระหว่างงานเหล่านั้น.
 
